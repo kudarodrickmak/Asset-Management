@@ -1,0 +1,28 @@
+﻿html, body {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+}
+
+/* Responsive: Portrait tablets and up 
+@media screen and (min-width: 768px) {
+    .jumbotron {
+        margin-top: 20px;
+    }*/
+
+
+html {
+    position: fixed;
+    padding: 0;
+    background-image: url(../logo.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+#box{
+    flex:auto;
+   
+}
+#panel1{
+    position:center;
+}
